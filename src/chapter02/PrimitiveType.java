@@ -80,7 +80,11 @@ public class PrimitiveType {
 		charVar1 = 65;
 		System.out.println(charVar1);
 		
-		
+		/*****************************************/
+		// boolean 
+		System.out.println("boolean형의 범위");
+		boolean booleanVar1 = true;
+		booleanVar1 = false;
 
 	}
 }
