@@ -58,6 +58,29 @@ public class PrimitiveType {
 		System.out.println("float형의 범위");
 		System.out.println(Float.MIN_VALUE);
 		System.out.println(Float.MAX_VALUE);
+		
+		float floatVar1 = 3.14F;
+		
+		/*****************************************/
+		// double 
+		System.out.println("double형의 범위");
+		System.out.println(Double.MIN_VALUE);
+		System.out.println(Double.MAX_VALUE);
+		
+		double doubleVar1 = 3.14;
+		
+		/*****************************************/
+		// char 
+		System.out.println("char형의 범위");
+		System.out.println(Character.MIN_VALUE);
+		System.out.println(Character.MAX_VALUE);
+		
+		char charVar1 = 'a';
+		System.out.println(charVar1);
+		charVar1 = 65;
+		System.out.println(charVar1);
+		
+		
 
 	}
 }
