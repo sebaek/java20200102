@@ -52,6 +52,12 @@ public class PrimitiveType {
 		System.out.println(Long.MAX_VALUE);
 		
 		long longVar1 = 220000000000L;
+		
+		/*****************************************/
+		// float 
+		System.out.println("float형의 범위");
+		System.out.println(Float.MIN_VALUE);
+		System.out.println(Float.MAX_VALUE);
 
 	}
 }
