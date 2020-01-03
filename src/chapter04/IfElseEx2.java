@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class IfElseEx2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.print("점수는 :");
 		String input = scanner.nextLine();
-		
+
 		System.out.println(input);
-		
+
 		int point = Integer.parseInt(input);
-		
+
 		if (100 >= point && point >= 90) {
 			System.out.println("A학점 입니다.");
 		} else if (90 > point && point >= 80) {
@@ -26,11 +26,6 @@ public class IfElseEx2 {
 		} else {
 			System.out.println("점수 오류");
 		}
-		
-		
+
 	}
 }
-
-
-
-
