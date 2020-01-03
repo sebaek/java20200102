@@ -27,6 +27,17 @@ public class Arithmetic {
 		System.out.println(intVar3 % doubleVar3);
 		
 		
+		// 연산시 주의 할 점 
+		// overflow
+		
+		int intVar4 = 2100000000;
+		int intVar5 = 2100000000;
+		int intVar6 = intVar4 + intVar5;
+		System.out.println(intVar4 + intVar5);
+		System.out.println(intVar6);
+		
+		long longVar1 = (long) intVar4 + intVar5;
+		System.out.println(longVar1);
 		
 		
 		
