@@ -6,7 +6,7 @@ public class Logical {
 		// 피연산자의 타입은 boolean
 		// 결과도 boolean
 		
-		System.out.println(true && true);
+		System.out.println(true && true); // true
 		System.out.println(true && false);
 		System.out.println(false && true);
 		System.out.println(false && false);
@@ -16,7 +16,7 @@ public class Logical {
 		System.out.println(true || true);
 		System.out.println(true || false);
 		System.out.println(false || true);
-		System.out.println(false || false);
+		System.out.println(false || false); // false
 		
 		System.out.println();
 		
