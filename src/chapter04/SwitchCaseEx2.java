@@ -9,7 +9,7 @@ public class SwitchCaseEx2 {
 		System.out.print("등급은 :");
 		String level = scanner.nextLine();
 
-		switch (level) {
+		switch (level.substring(0, 1)) {
 		case "A":
 		case "a":
 			System.out.println("90점 이상입니다.");
