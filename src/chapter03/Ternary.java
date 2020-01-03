@@ -12,7 +12,7 @@ public class Ternary {
 		int age = 30;
 		boolean a = true;
 		
-		String result = age > 20 ? "어른" : "아이";
+		String result = (age > 20) ? "어른" : "아이";
 		
 		System.out.println(result);
 		
