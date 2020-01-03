@@ -16,6 +16,16 @@ public class Assignment {
 		
 		intVar1 %= 5;
 		System.out.println(intVar1);
+		
+		/****************************************/
+		// 복합할당연산자는 강제 형변환이 일어남
+		intVar1 += 3; // intVar1 = intVar1 + 3;
+		
+		intVar1 = intVar1 + 3;
+//		intVar1 = intVar1 + 3L;
+		intVar1 += 3L; // intVar1 = (int) (intVar1 + 3L);
+		
+		
 	}
 }
 
