@@ -17,6 +17,8 @@ public class IfElseEx1 {
 		
 		if (intVar1 > 20) {
 			System.out.println("어른입니다.");
+		} else if (intVar1 > 10) {
+			System.out.println("학생입니다.");
 		} else {
 			System.out.println("아이입니다.");
 		}
