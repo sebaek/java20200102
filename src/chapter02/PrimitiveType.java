@@ -3,16 +3,17 @@ package chapter02;
 public class PrimitiveType {
 	public static void main(String[] args) {
 		// 정수형
-		// byte, short, int, long
+		// byte(1byte), short(2byte),
+		// int(4byte), long(8byte)
 		
 		// 실수형
-		// float, double
+		// float(4byte), double(8byte)
 		
 		// 문자형
-		// char
+		// char(2byte)
 		
 		// 논리형
-		// boolean
+		// boolean(1byte)
 
 		/*****************************************/
 		// byte 
