@@ -10,8 +10,11 @@ public class ForEx2 {
 		String d = scanner.nextLine();
 		int num = Integer.parseInt(d);
 
-		for (int i = 1; i <= 9; i++) {
-			System.out.println(num + " X " + i + " = " + (num * i));
+		for (int j = 2; j <= num; j++) {
+			System.out.println(j + "단");
+			for (int i = 1; i <= 9; i++) {
+				System.out.println(j + " X " + i + " = " + (num * i));
+			}
 		}
 	}
 }
