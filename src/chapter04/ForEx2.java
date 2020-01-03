@@ -13,7 +13,7 @@ public class ForEx2 {
 		for (int j = 2; j <= num; j++) {
 			System.out.println(j + "단");
 			for (int i = 1; i <= 9; i++) {
-				System.out.println(j + " X " + i + " = " + (num * i));
+				System.out.println(j + " X " + i + " = " + (j * i));
 			}
 		}
 	}
