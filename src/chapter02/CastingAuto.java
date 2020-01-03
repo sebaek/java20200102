@@ -1,6 +1,6 @@
 package chapter02;
 
-public class Casting {
+public class CastingAuto {
 	public static void main(String[] args) {
 		// type casting (auto)
 		// 작은 범위의 type은 큰 범위의 type으로
