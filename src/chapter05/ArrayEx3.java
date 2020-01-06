@@ -7,7 +7,6 @@ public class ArrayEx3 {
 		Random random = new Random();
 		int[] numbers = new int[6];
 		
-		boolean isNew = true;
 		int i = 0;
 		while (i < numbers.length) {
 			int newNumber = random.nextInt(45) + 1;
