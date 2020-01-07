@@ -1,7 +1,11 @@
 package chapter06;
 
+import chapter06.exercise.Member;
+
 public class AppEx2 {
 	public static void main(String[] args) {
+		Member u = new Member("홍길동", "hong");
+		
 		User user1 = new User();
 		System.out.println(user1.userId);
 		System.out.println(user1.level);
