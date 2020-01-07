@@ -2,7 +2,9 @@ package chapter05.exercise;
 
 public class Exercise07 {
 	public static void main(String[] args) {
-		int max = 0;
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
+		
 		int[] array = {1, 5, 3, 8, 2};
 		
 		// 작성 위치
@@ -10,9 +12,14 @@ public class Exercise07 {
 			if (max < array[i]) {
 				max = array[i];
 			}
+			if (min > array[i]) {
+				min = array[i];
+			}
+			
 		}
 		
 		System.out.println("max: " + max);
+		System.out.println("min: " + min);
 	}
 }
 
