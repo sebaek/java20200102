@@ -8,6 +8,8 @@ public class Exercise09 {
 		int studentNum = 0;
 		int[] scores = null;
 		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.println(scores.length);
 
 		while (run) {
 			System.out.println("-------------------------------------------------------");
