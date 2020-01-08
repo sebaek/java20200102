@@ -10,7 +10,7 @@ public class ClassMemberEx2 {
 	}
 	
 	static void classMethod() {
-		System.out.println(instanceVar);
+//		System.out.println(instanceVar);
 	}
 	
 }
