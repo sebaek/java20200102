@@ -2,7 +2,7 @@ package chapter06.exercise.p20;
 
 import java.util.Scanner;
 
-public class BankApplication {
+public class BankApplication { 
 	private static Account[] accountArray = new Account[100];
 	private static Scanner scanner = new Scanner(System.in);
 	private static int size = 0;
