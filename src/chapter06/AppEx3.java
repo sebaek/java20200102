@@ -2,6 +2,17 @@ package chapter06;
 
 public class AppEx3 {
 	public static void main(String[] args) {
+		MethodEx5 th1 = new MethodEx5();
+		th1.method1(3);
+		System.out.println(th1.field1);
+		
+		MethodEx5 th2 = new MethodEx5();
+		th2.method1(7);
+		System.out.println(th2.field1);
+		
+		
+		
+		System.out.println("----------------");
 		MethodEx3 re1 = new MethodEx3();
 		int r = re1.method1();
 		double s = re1.method2();
