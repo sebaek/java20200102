@@ -9,7 +9,7 @@ public class ClassMemberEx2 {
 		System.out.println(classVar);
 	}
 	
-	static classMethod() {
+	static void classMethod() {
 		System.out.println(instanceVar);
 	}
 	
