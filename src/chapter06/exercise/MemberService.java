@@ -6,6 +6,7 @@ public class MemberService {
 		if (id.equals("hong") && password.equals("12345")) {
 			return true;
 		}
+		
 		return false;
 	}
 
