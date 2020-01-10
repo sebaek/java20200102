@@ -5,4 +5,6 @@ public class HouseCat extends KindCat {
 	void cry() {
 		System.out.println("야옹........");
 	}
+	
+	
 }
