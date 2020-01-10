@@ -1,6 +1,6 @@
 package chapter07.polymorphism.section783;
 
-public class Phone {
+public abstract class Phone {
 	public String owner;
 	
 	public Phone(String owner) {
