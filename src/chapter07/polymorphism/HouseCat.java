@@ -1,4 +1,4 @@
-package chapter07.polymophism;
+package chapter07.polymorphism;
 
 public class HouseCat extends KindCat {
 	@Override

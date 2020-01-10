@@ -1,4 +1,4 @@
-package chapter07.polymophism.section771;
+package chapter07.polymorphism.section771;
 
 public class ChildExample {
 	public static void main(String[] args) {

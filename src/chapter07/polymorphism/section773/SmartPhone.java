@@ -1,4 +1,4 @@
-package chapter07.polymophism.section773;
+package chapter07.polymorphism.section773;
 
 public class SmartPhone {
 	private Button[] buttons;

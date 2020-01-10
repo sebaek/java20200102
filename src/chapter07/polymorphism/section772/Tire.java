@@ -1,4 +1,4 @@
-package chapter07.polymophism.section772;
+package chapter07.polymorphism.section772;
 
 public class Tire {
 	public int maxRotation;

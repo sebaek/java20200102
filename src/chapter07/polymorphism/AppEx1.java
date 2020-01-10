@@ -1,4 +1,4 @@
-package chapter07.polymophism;
+package chapter07.polymorphism;
 
 public class AppEx1 {
 	public static void main(String[] args) {
