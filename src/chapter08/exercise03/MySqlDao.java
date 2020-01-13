@@ -21,5 +21,5 @@ public class MySqlDao implements DataAccessObject {
 	public void delete() {
 		System.out.println("MySql DB에서 삭제");
 	}
-	
+
 }
