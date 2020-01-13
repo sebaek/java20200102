@@ -6,13 +6,20 @@ public class AppEx1 {
 		HouseCat cat = new HouseCat();
 		
 		malamute.sit();
+		malamute.roll();
 		cat.sit();
+		cat.roll();
+		cat.hunt();
 		
 		Pet pet1 = malamute;
 		Pet pet2 = cat;
 		
 		pet1.sit();
+		pet1.roll();
 		pet2.sit();
+		pet2.roll();
+//		pet2.hunt();
+		
 		
 		
 	}
