@@ -2,6 +2,8 @@ package chapter08.inter;
 
 public class AppEx1 {
 	public static void main(String[] args) {
+		Pet.staticMethod();
+		
 		Malamute malamute = new Malamute();
 		HouseCat cat = new HouseCat();
 		
