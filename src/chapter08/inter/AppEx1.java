@@ -16,6 +16,13 @@ public class AppEx1 {
 		
 		pet1.sit();
 		pet1.roll();
+//		pet1.pull();
+		
+		SledDog sd = malamute;
+		sd.pull();
+//		sd.sit();
+//		sd.roll();
+		
 		pet2.sit();
 		pet2.roll();
 //		pet2.hunt();

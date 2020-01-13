@@ -6,9 +6,11 @@ public class RemoteControlExample {
 		rc = new Television();
 		rc.turnOn();
 		rc.turnOff();
+		rc.setVolume(5);
 		
 		rc = new Audio();
 		rc.turnOn();
 		rc.turnOff();
+		rc.setVolume(99);
 	}
 }
