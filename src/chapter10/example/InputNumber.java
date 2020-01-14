@@ -10,8 +10,13 @@ public class InputNumber {
 		for (int i = 0; i < 5; i++) {
 			System.out.print("입력>");
 			String inputStr = scanner.next();
-			int inputNum = Integer.parseInt(inputStr);
-			sum += inputNum;
+			try {
+				int inputNum = Integer.parseInt(inputStr);
+				sum += inputNum;
+			} catch (NumberFormatException e) {
+				System.out.println("숫자만 입력하세요");
+				i--;
+			}
 		}
 		System.out.println("총 합은 : " + sum);
 		
