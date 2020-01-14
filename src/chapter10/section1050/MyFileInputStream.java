@@ -1,9 +1,9 @@
 package chapter10.section1050;
 
-public class FileInputStream implements AutoCloseable {
+public class MyFileInputStream implements AutoCloseable {
 	private String file;
 
-	public FileInputStream(String file) {
+	public MyFileInputStream(String file) {
 		this.file = file;
 	}
 
