@@ -20,7 +20,7 @@ public class InputNumber {
 		}
 		System.out.println("총 합은 : " + sum);
 		
-		scanner.close();
+//		scanner.close();
 	}
 }
 
