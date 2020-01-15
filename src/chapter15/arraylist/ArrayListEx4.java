@@ -18,9 +18,9 @@ public class ArrayListEx4 {
 			int math = scanner.nextInt();
 			
 			Student s = new Student();
-			list.add(s);
 			s.setName(name);
 			s.setMath(math);
+			list.add(s);
 		}
 		
 		for (Student s : list) {
