@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import chapter15.array.Student;
 
-public class ArrayListEx4 {
+public class ArrayListQuiz1 {
 	public static List<Student> listStudents() {
 		List<Student> list = new ArrayList<>();
 
