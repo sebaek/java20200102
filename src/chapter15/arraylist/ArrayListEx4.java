@@ -57,6 +57,13 @@ public class ArrayListEx4 {
 			s.setName(name);
 			s.setMath(math);
 		}
+		scanner.close();
+		System.out.println("=====학생 목록=====");
+		for (Student s : sList) {
+			System.out.println(s);
+		}
+		
+		
 		
 		
 		// 최고 점수를 얻은 학생이름과 점수
