@@ -63,10 +63,40 @@ public class ArrayListQuiz1 {
 			System.out.println(s);
 		}
 		
+		
 		System.out.println("=====점수 통계=====");
+		
 		// 최고 점수를 얻은 학생이름과 점수
 		// 최저 점수를 얻은 학생이름과 점수
-		// 평균 점수를 출력
+		Student min = new Student();
+		min.setMath(Integer.MAX_VALUE);
+		
+		for (int i = 0; i < sList.size(); i++) {
+			Student s  = sList.get(i);
+			if (min.getMath() > s.getMath()) {
+				min = s;
+			}
+		}
+		System.out.println("최저점수:" + min);
+		
+		
+		
+		// 평균 점수를 출력 (총점,)
+		double avg = 0;
 
+		for (Student s : sList) {
+			avg = avg + s.getMath();
+		}
+		avg = avg / sList.size();
+		System.out.println("평균: " + avg);
 	}
 }
+
+
+
+
+
+
+
+
+
