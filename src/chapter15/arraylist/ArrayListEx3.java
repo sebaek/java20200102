@@ -15,12 +15,16 @@ public class ArrayListEx3 {
 			balls.add(i);
 		}
 		
-		picks.add(balls.remove(random.nextInt(45)));
-		picks.add(balls.remove(random.nextInt(44)));
-		picks.add(balls.remove(random.nextInt(43)));
-		picks.add(balls.remove(random.nextInt(42)));
-		picks.add(balls.remove(random.nextInt(41)));
-		picks.add(balls.remove(random.nextInt(40)));
+//		picks.add(balls.remove(random.nextInt(45)));
+//		picks.add(balls.remove(random.nextInt(44)));
+//		picks.add(balls.remove(random.nextInt(43)));
+//		picks.add(balls.remove(random.nextInt(42)));
+//		picks.add(balls.remove(random.nextInt(41)));
+//		picks.add(balls.remove(random.nextInt(40)));
+		
+		for (int i = 0; i < 6; i++) {
+			picks.add(balls.remove(random.nextInt(balls.size())));
+		}
 		
 		for (Integer p : picks) {
 			System.out.println(p);
