@@ -2,6 +2,7 @@ package chapter15.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import chapter15.array.Student;
 
@@ -41,6 +42,22 @@ public class ArrayListEx4 {
 	
 	public static void main(String[] args) {
 		List<Student> sList = listStudents();
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("두 명의 학생의 이름과 점수를 입력하세요.");
+		
+		for (int i = 0; i < 2; i++) {
+			Student s = new Student();
+			System.out.print("이름>");
+			String name = scanner.next();
+			System.out.print("점수>");
+			int math = scanner.nextInt();
+			sList.add(s);
+			s.setName(name);
+			s.setMath(math);
+		}
+		
 		
 		// 최고 점수를 얻은 학생이름과 점수
 		// 최저 점수를 얻은 학생이름과 점수
