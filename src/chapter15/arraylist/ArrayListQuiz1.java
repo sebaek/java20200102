@@ -67,6 +67,14 @@ public class ArrayListQuiz1 {
 		System.out.println("=====점수 통계=====");
 		
 		// 최고 점수를 얻은 학생이름과 점수
+		Student max = new Student();
+		max.setMath(Integer.MIN_VALUE);
+		
+		for (Student s : sList) {
+			max = (max.getMath() < s.getMath()) ? s : max;
+		}
+		System.out.println("최고점수:" + max);
+		
 		// 최저 점수를 얻은 학생이름과 점수
 		Student min = new Student();
 		min.setMath(Integer.MAX_VALUE);
