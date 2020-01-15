@@ -17,5 +17,20 @@ public class MyClass {
 		this.name = name;
 	}
 	
+	@Override
+	public String toString() {
+		String desc = "id:" + this.id + ", name:" + this.name;
+		return desc;
+	}
+	
 
 }
+
+
+
+
+
+
+
+
+
