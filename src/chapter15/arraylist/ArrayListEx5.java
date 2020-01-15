@@ -40,25 +40,18 @@ public class ArrayListEx5 {
 				break;
 			}
 		}
-		
-		
 	}
 
 	private static void stStudent(List<Student> list) {
 		Student max = new Student();
 		max.setMath(Integer.MIN_VALUE);
-		for (Student s : list) {
-			max = (max.getMath() < s.getMath()) ? s : max;
-		}
-		
 		Student min = new Student();
 		min.setMath(Integer.MAX_VALUE);
-		for (Student s : list) {
-			min = (min.getMath() > s.getMath()) ? s : min;
-		}
-		
 		double avg = 0;
+		
 		for (Student s : list) {
+			max = (max.getMath() < s.getMath()) ? s : max;
+			min = (min.getMath() > s.getMath()) ? s : min;
 			avg = avg + s.getMath();
 		}
 		avg = avg / list.size();
@@ -79,7 +72,6 @@ public class ArrayListEx5 {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(i + ":" + list.get(i));
 		}
-		
 	}
 
 	private static void addStudent(List<Student> list) {
@@ -92,14 +84,6 @@ public class ArrayListEx5 {
 		s.setMath(math);
 		list.add(s);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 }
 
 
