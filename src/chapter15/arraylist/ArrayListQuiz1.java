@@ -62,7 +62,8 @@ public class ArrayListQuiz1 {
 		for (Student s : sList) {
 			System.out.println(s);
 		}
-
+		
+		System.out.println("=====점수 통계=====");
 		// 최고 점수를 얻은 학생이름과 점수
 		// 최저 점수를 얻은 학생이름과 점수
 		// 평균 점수를 출력
