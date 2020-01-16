@@ -22,8 +22,36 @@ public class HashSetEx3 {
 		
 		System.out.println("방송:" + computer);
 		
+		boolean won = true;
+		
+		for (Integer c : computer) {
+//			System.out.println(c);
+//			System.out.println(mylotto.contains(c));
+			if (!mylotto.contains(c)) {
+				won = false;
+				break;
+			}
+		}
+		
+		if (won) {
+			System.out.println("1등입니다.");
+		} else {
+			System.out.println("1등이 아닙니다.");
+		}
 	}
 }
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
 
 
 
