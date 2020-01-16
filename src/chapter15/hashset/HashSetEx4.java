@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-public class HashSet4 {
+public class HashSetEx4 {
 	private static Random random = new Random();
 	public static void main(String[] args) {
 		List<Set<Integer>> mylottos = getMylottos();
