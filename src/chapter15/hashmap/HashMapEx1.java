@@ -2,8 +2,10 @@ package chapter15.hashmap;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapEx1 {
 	public static void main(String[] args) {
@@ -23,9 +25,32 @@ public class HashMapEx1 {
 		System.out.println(map.get(3));
 		System.out.println(map.get(1));
 		
+		System.out.println();
+		Set<Integer> keys = map.keySet();
+		for (Integer key : keys) {
+			System.out.println(key + ":" + map.get(key));
+		}
+		
+		System.out.println();
+		
+		Set<Map.Entry<Integer, Integer>> set = map.entrySet();
+		Iterator<Map.Entry<Integer, Integer>> iter = set.iterator();
+		
+		while (iter.hasNext()) {
+			Map.Entry<Integer, Integer> entry = iter.next();
+			System.out.println(entry.getKey() + ":" + entry.getValue());
+		}
 		
 	}
 }
+
+
+
+
+
+
+
+
 
 
 
