@@ -22,8 +22,6 @@ public class ReaderEx1 {
 			System.out.println(c);
 		}
 		
-		
-		
 		fr.close();
 	}
 }
