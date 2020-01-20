@@ -1,5 +1,6 @@
 package chapter18.buffered;
 
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 
 public class BufferdInputStreamEx1 {
@@ -9,9 +10,10 @@ public class BufferdInputStreamEx1 {
 	}
 	public static void bufferedinputstream() throws Exception {
 		FileInputStream fis = new FileInputStream("out.txt");
+		BufferedInputStream bis = new BufferedInputStream(fis);
 
 		long start = System.currentTimeMillis();
-		while (fis.read() != -1) {
+		while (bis.read() != -1) {
 			
 		}
 		
@@ -21,7 +23,7 @@ public class BufferdInputStreamEx1 {
 		
 		System.out.println("읽기 완료.");
 		
-		fis.close();
+		bis.close();
 	}
 	
 	public static void inputstream() throws Exception {
