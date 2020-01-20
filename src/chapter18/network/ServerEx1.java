@@ -26,8 +26,7 @@ public class ServerEx1 {
 
 			String line = null;
 
-			for (int i = 0; i < 10; i++) {
-				line = br.readLine();
+			while ((line = br.readLine()).equals("exit")) {
 				System.out.println("수신]" + line);
 			}
 

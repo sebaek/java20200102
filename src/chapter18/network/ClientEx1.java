@@ -4,6 +4,7 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class ClientEx1 {
 	public static void main(String[] args) throws Exception {
@@ -12,13 +13,15 @@ public class ClientEx1 {
 		socket.connect(new InetSocketAddress("211.183.2.21", 9000));
 		System.out.println("연결 성공");
 
+		Scanner scanner = new Scanner(System.in);
 		OutputStream os = socket.getOutputStream();
 		PrintStream ps = new PrintStream(os);
 		
-		for (int i = 0; i < 10; i++) {
-			ps.println("메시지 보냄" + i);
+		String message = null;
+		while ((message = scanner.nextLine()).equals("exit")) {
+			ps.println(message);
 		}
-		
+		ps.println(message);
 		
 		ps.close();
 		if (!socket.isClosed()) {
