@@ -18,7 +18,8 @@ public class ClientEx1 {
 		PrintStream ps = new PrintStream(os);
 		
 		String message = null;
-		while ((message = scanner.nextLine()).equals("exit")) {
+		while (!(message = scanner.nextLine()).equals("exit")) {
+//			System.out.println(message);
 			ps.println(message);
 		}
 		ps.println(message);
