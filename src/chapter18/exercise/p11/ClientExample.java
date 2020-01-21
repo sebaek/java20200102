@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class ClientExample {
 	public static void main(String[] args) throws Exception {
-		Socket socket = new Socket("211.183.2.21", 5001);
+		Socket socket = new Socket("211.183.2.35", 5001);
 		OutputStream os = socket.getOutputStream();
 		
 		String filePath = "src/chapter18/exercise/p11/ClientExample.java";
